@@ -186,7 +186,7 @@ int main()
 
     if (pobjeda)
     {
-        ispisiPoruku("YOU WON!");
+        ispisiPoruku("POBJEDIO SI!");
         rez.open("rezultat.bin",ios::binary|ios::in);
         rez.read((char*)&rezultat,sizeof(rezultat));
         rez.close();
@@ -196,7 +196,7 @@ int main()
         rez.close();
     }
     else
-        ispisiPoruku("GAME OVER");
+        ispisiPoruku("IZGUBIO SI");
 
     system("pause");
     getchar();
