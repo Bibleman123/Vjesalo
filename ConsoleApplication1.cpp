@@ -193,7 +193,6 @@ int main()
         rezultat++;
         rez.open("rezultat.bin",ios::binary|ios::out);
         rez.write((char*)&rezultat,sizeof(rezultat));
-        rez.close();
     }
     else
         ispisiPoruku("IZGUBIO SI");
